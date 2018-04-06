@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include ./head.ejs %>
+  </head>
+  <body>
+    <main>
+      <div class="login-box">
+        <br>
+          <h1><b>Sign Up Here</b></h1>
+        <br>
+        <hr>
+        <form class="signup-form" action="/signup/user" method="post">
+          <p id="error1"></p>
+          <label>User Name:</label>
+          <div class="input-block">
+            <input id="uname" class="input-box" type="text" name="username" placeholder="User Name" autofocus autocomplete="off" required/>
+            <span id="ik" class="glyphicon glyphicon-ok"></span>
+            <span id="ir" class="glyphicon glyphicon-remove"></span>
+          </div>
+          <label>Email:</label>
+          <div class="input-block">
+            <input id="email" class="input-box" type="email" name="email" placeholder="Email" autocomplete="off" required/>
+            <span id="ik1" class="glyphicon glyphicon-ok"></span>
+            <span id="ir1" class="glyphicon glyphicon-remove"></span>
+          </div>
+          <label>Password:</label>
+          <div class="input-block">
+            <input id="pass" class="input-box" type="password" name="password" placeholder="Password" required/>
+            <span id="ik2" class="glyphicon glyphicon-ok"></span>
+            <span id="ir2" class="glyphicon glyphicon-remove"></span>
+          </div><br>
+          <button class="btn btn-primary" type="submit" name="submit">Signup</button>
+          <h3><b>Have an account?</b> </h3>
+          <a href="/login"  class="btn btn-danger"><b>Log In Here</b></a><br>
+        </form>
+      </div>
+    </main>
+
+    <% include ./footer.ejs %>
+
+    <script src="/js/scriptForSignup.js"></script>
+  </body>
+</html>

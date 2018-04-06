@@ -1,0 +1,169 @@
+body{
+  background-image: url("../images/chat1.jpg");
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+}
+.badge{
+  background-color: green;
+  font-size: 16px;
+}
+#ubtn{
+  margin-bottom: 10px;
+} 
+.opaque-navbar {
+    background-color: rgba(0,0,0,0);
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .1s ease 0s;
+}
+.opaque-navbar a{
+  color: white;
+  margin-top: 20px;
+  padding-right: 20px;
+}
+.navbar-text .navbar-left {
+  color:white;
+}
+@media only screen and (max-width: 800px) {
+    .navbar-inner p{
+        margin-top: -10px;
+    }
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 
+
+.box{
+ height:25px;
+ width: 25px; 
+}
+
+.panel-body{
+  color:black;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+
+.login-box{
+  margin: auto;
+  width: 50%;
+}
+
+.login-form{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.input-block{
+  margin: auto;
+  margin-bottom: 15px;
+  color: black;
+}
+label{
+  font-size: 1.5em
+}
+.input-box{
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  width: 75%;
+  border: 0;
+  background-color: #ffffff;
+  box-shadow: none;
+}
+p{
+  font-weight: bold;
+}
+
+#scrl1,
+#scrl2{
+  height: 400px;
+  overflow-y: auto;
+}
+.panel-success{
+  height: 400px;
+  width:auto;
+  background-color: transparent;
+  color: black;
+}
+.panel-heading h2, h3{
+padding: 0;
+margin: 0;
+color: black;
+}
+
+#loading,
+#noChat,
+#chatForm{
+  display: none;
+}
+
+.input-box-send{
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  width: 75%;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  box-shadow: none;
+  color: black;
+}
+
+#messages,
+#list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+}
+#messages li,
+#list li{
+  text-align: left;
+  width: auto;
+  background: #eee;
+  padding: 5px 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+#error1,
+#error2{
+  color: #e60000;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#irf,
+#ik,#ik1,#ik2,
+#ir,#ir1,#ir2{
+  display: none;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#ik,#ik1,#ik2{color: #009900;}
+#ir,#ir1,#ir2{color: #e60000;}
+
+#hell0{
+  color: black;
+}
+.panel .panel-sucess{
+  background-color: transparent;
+}

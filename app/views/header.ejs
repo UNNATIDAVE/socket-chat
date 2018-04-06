@@ -1,0 +1,21 @@
+<header>
+  <nav class="navbar opaque-navbar navbar-inverse">
+    <div class="container-fluid">  
+      <div class="navbar-inner">
+          <% if(user){ %>
+          
+            <h3 class="navbar-text navbar-left"><a href="#">Hello, <%= user.username %></a></h3>          
+            <p class="navbar-text navbar-right"><a href="/logout">Logout</a></p>
+            <p class="navbar-text navbar-right">
+              <a href="#"> <span id="totalOnline-1" class="badge">0</span>  User's Online</a>
+            </p>
+        
+          <% } else{ %>
+            <p class="navbar-text navbar-right"><a href="/login">Login</a></p>
+            <p class="navbar-text navbar-right"><a href="/signup">Signup</a></p>
+          <% } %>
+        
+      </div>
+    </div>
+  </nav>
+</header>
