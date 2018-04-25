@@ -14,6 +14,6 @@ Steps to use this Chat App.
 
 First you need to signup on : http://ec2-13-127-114-55.ap-south-1.compute.amazonaws.com/signup
 
-Those who have already signed up can go and login on this link : http://ec2-13-127-114-55.ap-south-1.compute.amazonaws.com/loginPage
+Those who have already signed up can go and login on this link : http://ec2-13-127-114-55.ap-south-1.compute.amazonaws.com/login
 
 Now you can able to chat with your friends who are already loged in.
