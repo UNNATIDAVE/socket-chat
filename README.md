@@ -1,5 +1,5 @@
 # Chat App using Socket.io and Node.js
-Live Demo:http://ec2-13-127-114-55.ap-south-1.compute.amazonaws.com/login
+Live Demo : http://ec2-13-127-114-55.ap-south-1.compute.amazonaws.com/login
 
 Functionalites of App -
 Node.js
