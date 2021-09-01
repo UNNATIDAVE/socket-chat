@@ -4,11 +4,11 @@
   "description": "A Real Time Chat Application built using Node.js, ExpressJs, MongoDB and Socket.io.",
   "main": "app.js",
   "keywords": [
-                "nodejs",
-                "expressjs",
-                "mongodb",
-                "socket.io",
-                "chat-app"
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "socket.io",
+    "chat-app"
   ],
   "dependencies": {
     "body-parser": "^1.17.2",
@@ -26,5 +26,8 @@
     "path": "^0.12.7",
     "shortid": "^2.2.8",
     "socket.io": "^2.0.1"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
   }
 }
