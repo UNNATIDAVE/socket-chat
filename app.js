@@ -17,7 +17,7 @@ require('./library/Chat.js').sockets(http);
 
 //db connection
 mongoose.Promise = global.Promise;
-var dbPath = "mongodb://socketchat:socketapi@ds157599.mlab.com:57599/socket-chat";
+var dbPath = "mongodb://127.0.0.1:27017/socket-chat";
 mongoose.connect(dbPath,{ useMongoClient: true });
 mongoose.connection.once('open',function(){
   console.log("Database Connected Successfully.");
